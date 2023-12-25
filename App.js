@@ -1,20 +1,43 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, Text } from "react-native";
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Splash from "./src/Screens/Splash";
+import Login from "./src/Screens/Login";
+import Signup from "./src/Screens/Signup";
+import Home from "./src/Screens/Home";
+import Details from "./src/Screens/Details";
+import Cart from "./src/Screens/Cart";
+import { Provider } from "react-redux";
+ import { Store } from "./Redux/Store";
+import Orderplaced from "./src/Screens/Orderplaced";
+import { createStore } from '@reduxjs/toolkit';
 
-export default function App() {
+
+
+const Stack = createNativeStackNavigator();
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={Store}>
+    <NavigationContainer>
+      <Stack.Navigator
+        initialRouteName="Splash"
+        screeeOptions={{
+        headerShown:false,  
+        }}
+      >
+        <Stack.Screen name="Splash" component={Splash} options={{ headerShown: false }}/>
+        <Stack.Screen name="Login" component={Login}/>
+        <Stack.Screen name="Signup" component={Signup} options={{ headerShown: false }}/>
+        <Stack.Screen name="Home" component={Home} options={{ headerShown: false }}/>
+        <Stack.Screen name="Details" component={Details} options={{ headerShown: false }} />
+       <Stack.Screen name="Cart" component={Cart} options={{ headerShown: false }}/>
+       <Stack.Screen name="Orderplaced" component={Orderplaced} options={{ headerShown: false }}/>
+      </Stack.Navigator>
+    </NavigationContainer>
+    </Provider>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
