@@ -45,7 +45,7 @@ const Splash = () => {
               letterSpacing: 5,
             }}
           >
-          Hi!
+          Hi! 
           </Text>
         </View>
       </View>

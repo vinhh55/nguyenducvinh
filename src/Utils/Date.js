@@ -34,6 +34,8 @@ export const fruits = [
       img: "https://www.billieeilishstore.de/assets/asset_300x300/Billie-Eilish-Look-Away-Grey-T-Shirt-grau-143466-325077-1663173352.png",
     },
     {
+
+
       name: "Shark White",
       pieces: "4",
       price: 4.939,
@@ -52,6 +54,39 @@ export const fruits = [
       img: "https://www.billieeilishstore.de/assets/asset_300x300/Billie-Eilish-And-You-ll-Be-Happier-Than-Ever-Longsleeves-rot-500845-361610-7589927.png",
     },
   ];
+  export const Other = [
+    {
+      name: "BILLIE EILISH PURPLE PHONE CASE ",
+      pieces: "10",
+      price: 1.999,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkv3ZZQCNYepwfeptoSNMJUavTj3XuHP6Cw&usqp=CAU",
+    },
+    {
+      name: "BILLIE EILISH PURPLE PHONE CASE ",
+      pieces: "10",
+      price: 1.999,
+      img: "https://shopfrbillieeilish.com/cdn/shop/files/BlohshcookieCutter_1024x1024.png?v=1702555755",
+    },
+    {
+      name: "BILLIE EILISH PURPLE PHONE CASE ",
+      pieces: "10",
+      price: 1.999,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkv3ZZQCNYepwfeptoSNMJUavTj3XuHP6Cw&usqp=CAU",
+    },
+    {
+      name: "BILLIE EILISH PURPLE PHONE CASE ",
+      pieces: "10",
+      price: 1.999,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkv3ZZQCNYepwfeptoSNMJUavTj3XuHP6Cw&usqp=CAU",
+    },
+    {
+      name: "BILLIE EILISH PURPLE PHONE CASE ",
+      pieces: "10",
+      price: 1.999,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkv3ZZQCNYepwfeptoSNMJUavTj3XuHP6Cw&usqp=CAU",
+    },
+    
+  ]
   export const Dropdown = [
     {
      title:"Product-Details",
