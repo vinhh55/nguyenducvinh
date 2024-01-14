@@ -38,7 +38,8 @@ const App = () => {
        <Stack.Screen name="Orderplaced" component={Orderplaced} options={{ headerShown: false }}/>
       </Tab.Navigator > */}
         <Stack.Navigator>
-          <Stack.Screen name="Tab" component={TabNavigation} />
+          <Stack.Screen name="Tab" component={TabNavigation} 
+          options={{ headerShown: false }}/>
          
           <Stack.Screen
         name="Slapsh"
