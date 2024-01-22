@@ -9,6 +9,7 @@ import ProductsCarousel from "../Components/ProductsCarousel";
 import { Other, fruits, vegetables } from "../Utils/Date";
 import Home2 from "../Components/Home2";
 import Home1 from "../Components/Home1";
+import HomeIcon1 from "../Components/HomeIcon1";
  
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <HomeIcon />
       <HomeSearch/>
       <HomeBanner/>
+      <HomeIcon1 />
       <ProductsTile title="T-shirt"/>
       <ProductsCarousel data={fruits}/>
       <Home1/>

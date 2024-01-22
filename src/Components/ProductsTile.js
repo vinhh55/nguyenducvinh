@@ -14,7 +14,7 @@ const ProductsTile = ({title}) => {
       }}
     >
         <Text style={{ fontSize:20,color: "gray", fontWeight:"700"}} >{title} </Text>
-        <Text style={{ fontSize:16,color:myColors.primary,marginLeft: 140}}> See All</Text>
+        <Text style={{ fontSize:16,color:myColors.primary,marginLeft: 200}}> See All</Text>
     </View>
   );
 };

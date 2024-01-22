@@ -30,7 +30,7 @@ const ProductsCarousel = ({ data }) => {
               marginTop: 8,
               borderWidth: 1,
               borderColor: "#E3E3E3",
-              width: responsiveHeight(21.5),
+              width: responsiveHeight(30),
               marginRight: 15,
               borderRadius: 20,
             }}

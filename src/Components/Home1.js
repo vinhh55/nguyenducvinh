@@ -5,14 +5,14 @@ import { responsiveHeight } from "react-native-responsive-dimensions";
 const Home1 = () => {
   return (
     <View>
-      <Image
+      <Image 
         style={{
           height: responsiveHeight(15),
           marginTop: 15,
           alignSelf: "center",
           borderRadius: 15,
           height:150,
-          width: 345,
+          width: 450,
         }}
         source={require("../assets/7.jpg")}
       />

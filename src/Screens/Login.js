@@ -39,7 +39,7 @@ const Login = () => {
         <Image
           style={{
             height: 70,
-            width: 70,
+            width: 80,
             alignSelf: "center",
           }}
           source={require("../assets/haha.png")}
@@ -166,7 +166,7 @@ flexDirection: "row",
               borderRadius: 20,
               justifyContent: "center",
               alignItems: "center",
-              marginLeft: 20,
+              marginLeft: 40,
               marginTop: 60,
             }}
           >

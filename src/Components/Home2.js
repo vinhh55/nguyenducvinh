@@ -11,10 +11,10 @@ const Home2 = () => {
           marginTop: 15,
           alignSelf: "center",
           borderRadius: 15,
-          height:50,
-          width: 345,
+          height:150,
+          width: 450,
         }}
-        source={require("../assets/6.jpg")}
+        source={require("../assets/5.jpg")}
       />
     </View>
   );
